@@ -18,5 +18,8 @@ class Song
   end 
   
   def genre_count
+    genre_hash = {}
+    @@genres.each do |genre|
+      genre_hash[genre] ||= 0 
   end
 end 
