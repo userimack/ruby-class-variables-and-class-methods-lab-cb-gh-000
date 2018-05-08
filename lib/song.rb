@@ -18,7 +18,7 @@ class Song
   end 
   
   def self.artist 
-    
+    @@artists.uniq
   end 
   
   def genre_count
